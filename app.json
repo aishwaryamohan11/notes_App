@@ -19,10 +19,23 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.aishwaryam.myapp"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "53d5050d-3f66-4c19-8131-155ab96f9a1f"
+      }
+    },
+    "owner": "aishwaryam",
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/53d5050d-3f66-4c19-8131-155ab96f9a1f"
     }
   }
 }
